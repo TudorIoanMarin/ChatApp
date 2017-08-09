@@ -1,0 +1,19 @@
+{
+  "name": "chat-bot-retele",
+  "version": "1.0.0",
+  "description": "Un chat bot construit cu node.js, express.js, socket.io, mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Tudor Ioan Marin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.28",
+    "serve-static": "^1.12.3",
+    "socket.io": "^2.0.3"
+  }
+}

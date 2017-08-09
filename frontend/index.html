@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title> Retele </title>
+    <!-- Styles -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body>
+    <form>
+      <input type="text" class="form-control" placeholder="Username">
+      <select class="form-control">
+        <option>Room1</option>
+        <option>Room2</option>
+        <option>Room3</option>
+      </select>
+      <button type="button" class="btn btn-info">Submit</button>
+    </form>
+    <div class="container">
+      <h1>Chat application</h1>
+      <h5>Type something in the input below</h5>
+      <input type="text" name="message" class="msg">
+      <button type="button" name="button" class="btn btn-default send-msg">Send</button>
+      <br/>
+      <br/>
+      <h4>Chat room</h4>
+      <ul id="messages"></ul>
+    </div>
+    <div class="footer-tech">
+      <img src="img/mongodb.jpg" alt="" class="img-responsive">
+      <img src="img/nodejs.png" alt="" class="img-responsive">
+      <img src="img/socket.png" alt="" class="img-responsive">
+      <img src="img/express.png" alt="" class="img-responsive">
+    </div>
+  <!-- scripts and plugins -->
+  <script
+   src="https://code.jquery.com/jquery-3.2.1.min.js"
+   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+   crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>

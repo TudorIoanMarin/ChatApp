@@ -1,0 +1,23 @@
+body { text-align: center;}
+.container { display: none }
+
+form {
+  display: block;
+  width: 400px;
+  height: 400px;
+  border: 2px solid grey;
+  background: lightgrey;
+  padding: 0 20px;
+  margin: 50px auto;
+ }
+
+form button, form input, form select { margin-top: 20px;}
+
+body.logged .container { display: block;}
+body.logged form { display: none;}
+
+h5 { margin: 20px auto !important; }
+ul { width: 400px; height: 400px; border: 1px solid black; margin: 0 auto; padding: 0; overflow: scroll;}
+ul li { list-style: none; text-align: left; margin-bottom: 10px;}
+
+img { max-width: 100px; height: auto; margin: 0 20px;}
